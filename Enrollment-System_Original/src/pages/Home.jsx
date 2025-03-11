@@ -67,7 +67,21 @@ const Home = () => {
           <motion.section {...fadeIn} className="text-center">
             <h2 className="text-2xl font-semibold mb-4">About the Developer</h2>
             <p className="text-gray-600 mb-4">
-              This Wibesite was developed by Prince A. Estrada, a software developer with a focus on creating user-friendly and efficient web applications.
+              This website is developed by <strong>Prince Atamosa. Estrada</strong>, a passionate developer who created a fully functional <strong>Enrollment System</strong> during his <strong>Senior High</strong> years (<strong>2024–2026</strong>). With a strong interest in software development, he designed and built the system to streamline the enrollment process, ensuring efficiency and ease of use.
+            </p>
+            <p className="text-gray-600 mb-4">
+              His expertise includes Java, MySQL, React, Firebase, and web development, allowing him to craft modern and reliable applications. Driven by innovation, <strong>Prince </strong>continues to enhance his skills, aiming to develop more impactful software solutions in the future.
+            </p>
+            <p className="text-gray-600 mb-4">
+              Here's the source code on GitHub: 
+              <a 
+                href="https://github.com/Pringoottt/Capstone_FN/commit/1f13813681d5b3cb05a2707c8be209ee03cc489e" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-600 font-bold hover:underline"
+              >
+                GitHub Repository
+              </a>
             </p>
             <a 
               href="https://web.facebook.com/profile.php?id=100095278806621" 
@@ -78,8 +92,6 @@ const Home = () => {
               Visit on Facebook
             </a>
           </motion.section>
-
-          
         </footer>
       </main>
     </div>
